@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 18px 0;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+    width: 100%;
+}
+.navbar-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-list_link {
+    color: #000;
+    font-weight: 400;
+    cursor: default;
+}
+.navbar-list_link:not(:last-child) {
+    padding-bottom: 15px;
+}
+.navbar-list_link:hover {
+    border-bottom: 4px solid #000;
+    /* padding-bottom: 15px; */
+}
+
+
+.tel {
+    background-color: #00BAFC;
+    padding: 7px 14px;
+    color: #fff;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.tel:hover {
+    background-color: #fff;
+    color: #00BAFC;
+    border-radius: 5px;
+    border: 5px solid #00BAFC;
+    transition: 0.3s linear;
+}
+.navbar-list_item:not(:nth-child(1)) {
+    margin-left: 32px;
+}
+
+/* Header */
+
+#header {
+    padding: 100px 0 160px;
+    /* height: 100vh; */
+}
+.header-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-content {
+    width: 470px;
+}
+.header-content_title {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+.header-content_text {
+    margin: 16px 0;
+    color: #000;
+    font-weight: 400;
+    line-height: 24px;
+    }
+.header-content_btn {
+    background-color: #00BAFC;
+    color: #fff;
+    border: 1px solid #00BAFC;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-weight: bold;
+
+}
+iframe {
+    border-radius: 5px;
+}
+
+/* Service */
+#service {
+    padding-bottom: 80px;
+}
+.service-title {
+    text-align: center;
+}
+.service-subtitle {
+    text-align: center;
+    margin: 46px auto;
+    width: 719px;
+    font-weight: 400;
+}
+.service-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 55px;
+}
+.service-box_item {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.10);
+}
+.service-item_title {
+    margin: 16px 0;
+}
+.service-btn_box {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-btn {
+    border: 1px solid#00BAFC;
+    background-color: #00BAFC;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 16px;
+}
+.service-link {
+    color: #00BAFC;
+    text-decoration-line: underline;
+}
+
+/* Work */
+#work {
+    padding: 56px 0;
+}
+
+.work-title {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%;
+}
+.work-subtitle {
+    text-align: center;
+    margin: 15px 0;
+}
+.work-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.work-item_title {
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; 
+}
+.work-btn {
+    display: block;
+    padding: 8px 16px;
+    margin: 48px auto;
+}
+
+/* Form */
+
+#form {
+    background-color: #00BAFC;
+    padding: 56px 0;
+}
+.form-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%;
+}
+.form-subtitle {
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    line-height: 150%; 
+    margin: 16px 0 24px;
+}
+.form-box {
+    background-color: #fff;
+    width: 300px;
+    margin: 0 auto;
+}
+.form-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+    
+}
+
+.form-input {
+    background-color: #f5f5f5;
+    padding: 16px;
+    margin: 16px 0;
+    border: none;
+    width: 266px;
+}
+
+
+
+
+
+
+
+
